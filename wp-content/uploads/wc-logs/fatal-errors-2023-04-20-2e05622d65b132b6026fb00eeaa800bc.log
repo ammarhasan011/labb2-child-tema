@@ -1,0 +1,46 @@
+2023-04-20T11:12:27+00:00 CRITICAL syntax error, unexpected identifier "add" i /Applications/MAMP/htdocs/labb2/wp-content/themes/joyas-shop-child/functions.php på rad 3
+
+2023-04-20T11:17:29+00:00 CRITICAL syntax error, unexpected end of file i /Applications/MAMP/htdocs/labb2/wp-content/themes/joyas-shop-child/functions.php på rad 32
+
+2023-04-20T11:17:47+00:00 CRITICAL syntax error, unexpected end of file i /Applications/MAMP/htdocs/labb2/wp-content/themes/joyas-shop-child/functions.php på rad 32
+
+2023-04-20T11:17:50+00:00 CRITICAL syntax error, unexpected end of file i /Applications/MAMP/htdocs/labb2/wp-content/themes/joyas-shop-child/functions.php på rad 32
+
+2023-04-20T11:36:56+00:00 CRITICAL syntax error, unexpected token "function" i /Applications/MAMP/htdocs/labb2/wp-content/themes/joyas-shop-child/functions.php på rad 19
+
+2023-04-20T13:34:59+00:00 CRITICAL syntax error, unexpected identifier "add_filter" i /Applications/MAMP/htdocs/labb2/wp-content/themes/joyas-shop-child/functions.php på rad 32
+
+2023-04-20T13:37:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "my_remove_product_result_count" not found or invalid function name in /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/labb2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/labb2/wp-settings.php(601): do_action('after_setup_the...')
+#3 /Applications/MAMP/htdocs/labb2/wp-config.php(93): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/labb2/wp-load.php(50): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/labb2/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#6 {main}
+  thrown i /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-20T13:40:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "my_remove_product_result_count" not found or invalid function name in /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/labb2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/labb2/wp-settings.php(601): do_action('after_setup_the...')
+#3 /Applications/MAMP/htdocs/labb2/wp-config.php(93): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/labb2/wp-load.php(50): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/labb2/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#6 {main}
+  thrown i /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-20T13:41:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "my_remove_product_result_count" not found or invalid function name in /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/labb2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/labb2/wp-settings.php(601): do_action('after_setup_the...')
+#3 /Applications/MAMP/htdocs/labb2/wp-config.php(93): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/labb2/wp-load.php(50): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/labb2/wp-blog-header.php(13): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/labb2/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown i /Applications/MAMP/htdocs/labb2/wp-includes/class-wp-hook.php på rad 308
+
