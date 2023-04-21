@@ -1,0 +1,50 @@
+Arbetslogg Ammar WIE22Dstart 19/4 kl 12
+
+Jag börjar med att installera WP och döpa om den till labb2. Jag skapar en databas med namnet labb2 och skapar en användare för Henrik
+med användarnamn och lösenord: medie-admin. Jag öppnar adminpanelen och lägger till ett nytt tillägg, WooCommerce. 
+Jag gör inställningarna och fyller i kolumner för att kunna ha rätt inställningar på Woocommerce.
+Jag fixar frakt priser och när det ska vara fri frakt och vad vilken produkt ska ha ömtålig frakt och fast frakt. 
+Lägger även till moms på WooCommerce inställningar så att det läggs till i priset för produkterna.
+
+
+Jag fixade att man betalar vid leverans och sedan betala med bankkort med hjälp av tillägget Stripe för WooCommerce. 
+Men fortsatte inte då det är en uppgift och jag vill inte ha min information ska kopplas och kanske betala en avgift.
+Jag fixar hur olika element ska se ut i butiken och tar bort saker som jag tycker inte behövs och rättar ordning på dess.
+
+
+Jag väljer temat Joyas Shop.Jag skapade nio produkter. Tre nedladdade produkter, tre enkla produkter och tre variabel produkter.
+Jag väljer ljud filer för nedladdning som yoga musik, en bok och tränings guide. För enkla produkter väljer jag en fotboll, tennis raket och en tränings matta.
+För variabla produkter väljer jag en jacka och två par skor.
+Jag lägger till flera kategorier för produkterna och börjar fylla i beskrivningen, jag skriver rubrik, lägger till produktbild och andra bilder samt kategori, 
+etiketter, lager saldo, olika priser, storlek och färg på produkter och vilka attribut vissa produkter ska ha som färg för respektive produkt. 
+
+
+Jag skapar ett barntema i min WP installation, wpconfig, themes. Och jag kallar den för joys-shop-child då föräldrar temat är döpt till joys-shop. 
+I joys-shop-child skapar jag style.css för att koppla till föräldrar temat med Template. 
+Sedan lägger jag en screenshot.png så de ser bättre ut och jag skapar en functions.php för att kunna lägga mina hooks i.
+
+
+Jag skapar tre hooks, add_filter, add_action och remove_action I functions.php.
+I add_filter ändrar jag placeholder för order comments till en custom meddelande.
+I add_action lägger jag till ett meddelande med hjälp av echo ”ett rabattkod som syns över produkten”
+I remove_action väljer jag att ta bort en etikett där det står REA för en singel product.
+
+
+Jag ersätter en WooCommerce mallfil med template override.  I footer så finns det ett meddelande som jag inte tyckte om 
+vilket är © Sport Butiken 2023 & Built with Storefront & WooCommerce.
+Jag kopierar footer.php och lägger den i min child tema och tar bort min footen innehåll och lägger till ett meddelande Tack för att ni besöker oss på sport butiken 💫
+
+
+Jag kopplar hela WP installationen till GitHub för att kunna se plugin samt min child tema.
+
+
+
+För min plugin skapar jag en map som heter sportbutik-plugin i plugins och där skapar jag sportbutik-plugin.php och style.css. 
+I sportbutik-plugin.php kopplar jag till min style.css och sedan skapar widgets för min footer då jag vill lägga till kort om oss, kontakta oss och sociala medier med hjälp av sidebar.
+Jag lägger till informationen som jag vill ska synas i widgets i admin panelen och använder style.css för att få de att se ut som jag vill. 
+Sedan kopplar jag detta med hjälp av dynamic_sidebar i min footer.php i child temat för att det ska synas i footer.
+
+
+Jag byter tema till storefront då min tema inte stödjer vissa delar i WooCommerce och det krånglade när jag la in CSS för min plugin.
+Jag fixar så jag skickar databasen för min wp instelation och skickar allt.
+Och lägger till en readme och där lägger jag alla mina kommentarer om hur jag har gjort.
