@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts', 'myplugin_styles');
 
 
 
-// Register widgets for the footer
+// creating widgets for the footer
 function customwidget()
 {
     $widgets = array(

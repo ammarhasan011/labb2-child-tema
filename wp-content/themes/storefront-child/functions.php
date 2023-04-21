@@ -1,10 +1,10 @@
 <?php
 
-// anpassning av kassan
+//adaptation of the order
 add_filter('woocommerce_checkout_fields', 'kassa_funktion');
 function kassa_funktion($fields)
 {
-    $fields['order']['order_comments']['placeholder'] = 'Har du ett meddelande till oss';
+    $fields['order']['order_comments']['placeholder'] = 'Har du ett meddelande till oss Mvh Sport butiken';
     return $fields;
 }
 
