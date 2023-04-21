@@ -1,0 +1,22 @@
+/* css for my footer widgets */
+.footer-widgets {
+    display: flex;
+    padding: 20px;
+
+}
+
+#footer_kort_om_oss {
+    padding: 20px;
+    width: 500px;
+
+}
+
+#footer_cont {
+    padding: 20px;
+
+}
+
+#footer_social-media {
+    padding: 20px;
+
+}
